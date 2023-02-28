@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-primary">
+        <div class="navbar  text-primary-content w-[80%] mx-auto">
+            <a class="btn btn-ghost normal-case text-xl ">TS Dictionary</a>
+        </div>
+    </header>
+    <main>
+        <!-- <audio id="audio" src="https://api.dictionaryapi.dev/media/pronunciations/en/keyboard-us.mp3"></audio>
+        <button onclick="audio.play()"> play</button> -->
+        <section class="w-[80%] mx-auto my-3">
+            <div class="py-9">
+                <input id="inputValue" type="text" value="" placeholder="Type here"
+                    class="block mx-auto input input-bordered input-accent w-full max-w-xs" />
+                <button
+                    class=" block mx-auto my-6 btn btn-wide bg-yellow-900 text-2xl border-none hover:bg-yellow-700" id="searchBtn">Search</button>
+            </div>
+        </section>
+        <section class="w-[80%] mx-auto  my-3" id="detailsContainer">
+            <!-- <div class=" bg-white border-2 p-6"> -->
+                <!-- <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-6xl text-black">Keyboard</h1>
+                        <p class="text-2xl my-4 text-black" style="font-family: 'Source Code Pro', monospace;">/kcbyt
+                        </p>
+                    </div>
+                    <button class="rounded-2xl"><i class="fa-solid fa-play fa-4x text-blue-800"></i></button>
+                </div>
+                <div class="flex items-center justify-center gap-1">
+                    <h3 class="-mt-2" style="font-family: 'Source Code Pro', monospace;">noun</h3>
+                    <div class="bg-black h-1 w-[100%] opacity-5"></div>
+                </div>
+                <div>
+                    <h6 class="my-6">Meaning</h6>
+                    <ul class="list-disc ml-8">
+                        <li class="my-7">
+                            a panel of keys that operate a computer or typewriter.
+                        </li>
+                        <li class="my-7">
+                            a set of keys on a piano or similar musical instrument.
+                            r similar musical instrument
+                        </li>
+                        <li class="my-7">
+                            a set of keys on a piano or similar musical instrument.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="my-6">Synonyms: <span class="text-violet-600">electronic KeyBoard</span></h6>
+                </div>
+                <div class="flex items-center justify-center gap-1">
+                    <h3 class="-mt-2" style="font-family: 'Source Code Pro', monospace;">verb</h3>
+                    <div class="bg-black h-1 w-[100%] opacity-5"></div>
+                </div>
+                <div>
+                    <h6 class="my-6">Meaning</h6>
+                    <ul class="list-disc ml-8">
+                        <li class="my-7">
+                            a panel of keys that operate a computer or typewriter.
+                            <ul class=" ml-12 list-disc"> 
+                                <li class="my-4 text-sm">
+                                    a panel of keys that operate a computer or typewriter.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-black h-1 w-[100%] opacity-5"></div>
+                <p class="mt-7">Source:<span>https//www.ok.com</span></p> -->
+            <!-- </div> -->
+
+        </section>
+    </main>
+    <!-- <div class="flex items-center justify-center gap-1">
+        <h3 class="-mt-2" style="font-family: 'Source Code Pro', monospace;">verb</h3>
+        <div class="bg-black h-1 w-[100%] opacity-5"></div>
+    </div> -->
+    <!-- <div>
+        <h6 class="my-6">Meaning</h6>
+        <ul class="list-disc ml-8">
+            <li class="my-7">
+                a panel of keys that operate a computer or typewriter.
+                <ul class=" ml-12 list-disc"> 
+                    <li class="my-4 text-sm">
+                        a panel of keys that operate a computer or typewriter.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div> -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
